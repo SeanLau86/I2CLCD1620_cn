@@ -126,9 +126,9 @@ namespace I2C_LCD1602 {
         let a: number
 
         if (y > 0)
-            a = 0x40
+            a = 0xc0
         else
-            a = 0x00
+            a = 0x80
         a += x
         cmd(a)
 
